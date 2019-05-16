@@ -10,6 +10,8 @@ package softwaredesign.week1;
  * @author manjo
  */
 public class Student {
+
+    private int StuId;
     //constructor
     public Student(String n) 
     {
@@ -20,7 +22,13 @@ public class Student {
     }
    //data fields
     private String name;
+    private int stuId ;
 
+    Student(String manjot, int stuId) {
+    this.name = manjot;
+    this.stuId = stuId;
+    
+    }
    
   
     public String getName() {
@@ -33,5 +41,22 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * @return the StuId
+     */
+    public int getStuId() {
+        return stuId;
+    }
+
+    /**
+     * @param stuId
+     
+     */
+    public void setStuId(int stuId) {
+        this.stuId = stuId;
+    }
+
+   
     
 }

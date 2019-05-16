@@ -5,29 +5,27 @@
  */
 package softwaredesign.week1;
 
-import softwaredesign.week1.Student;
-
 /**
  *
  * @author manjo
  */
 public class TestStudent {
     public static void main(String[]args){
-        Student s1=new Student("manjot");
+        Student s1=new Student("manjot",612166868);
         //s1.setName ("manjot");
         
-        Student s2=new Student("kaur");
+        Student s2=new Student("kaur",2632699);
         //s2.setName ("harinder");
         
-        Student s3=new Student();
-        s3.setName ("randhawa");
+        Student s3=new Student("randhawa",6263828);
+        //s3.setName ();
         
         Student[] list = new Student[3]; // array of objects
         list[0]= s1;
         list[1]=s2;
         list[2]=s3;
         for(int i=0;i<list.length;i++){
-            System.out.println(list[i].getName());
+            System.out.println(list[i].getName()+" "+list[i].getStuId());
             
             
                     
