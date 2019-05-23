@@ -66,14 +66,14 @@ public class Student {
      * @return the course
      */
     public int getMaxCourse() {
-        return course;
+        return maxCourse;
     }
 
     /**
      * @param course the course to set
      */
-    public void setMaxCourse(int course) {
-        this.course = course;
+    public void setMaxCourse(int maxCourse) {
+        this.maxCcourse = maxCourse;
     }
 
    
