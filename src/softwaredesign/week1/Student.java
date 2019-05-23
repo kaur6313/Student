@@ -24,10 +24,14 @@ public class Student {
    //data fields
     private String name;
     private int stuId ;
+    private int course;
+    
+    
 
-    Student(String manjot, int stuId) {
+    Student(String manjot, int stuId, int course) {
     this.name = manjot;
     this.stuId = stuId;
+    this.course=course;
     
     }
    
@@ -56,6 +60,20 @@ public class Student {
      */
     public void setStuId(int stuId) {
         this.stuId = stuId;
+    }
+
+    /**
+     * @return the course
+     */
+    public int getCourse() {
+        return course;
+    }
+
+    /**
+     * @param course the course to set
+     */
+    public void setCourse(int course) {
+        this.course = course;
     }
 
    
