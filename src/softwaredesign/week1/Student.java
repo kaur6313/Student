@@ -24,14 +24,14 @@ public class Student {
    //data fields
     private String name;
     private int stuId ;
-    private int course;
+    private int maxCourse;
     
     
 
-    Student(String manjot, int stuId, int course) {
+    Student(String manjot, int stuId, int maxCourse) {
     this.name = manjot;
     this.stuId = stuId;
-    this.course=course;
+    this.maxCourse=course;
     
     }
    
@@ -65,14 +65,14 @@ public class Student {
     /**
      * @return the course
      */
-    public int getCourse() {
+    public int getMaxCourse() {
         return course;
     }
 
     /**
      * @param course the course to set
      */
-    public void setCourse(int course) {
+    public void setMaxCourse(int course) {
         this.course = course;
     }
 
