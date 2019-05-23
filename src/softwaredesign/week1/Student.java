@@ -73,7 +73,7 @@ public class Student {
      * @param course the course to set
      */
     public void setMaxCourse(int maxCourse) {
-        this.maxCcourse = maxCourse;
+        this.maxCourse = maxCourse;
     }
 
    
